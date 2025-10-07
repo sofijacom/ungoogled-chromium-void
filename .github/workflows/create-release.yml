@@ -14,7 +14,7 @@ on:
 
 jobs:
   Fetch:
-    if: github.repository == 'DAINRA/ungoogled-chromium-void'
+    if: github.repository == 'sofijacom/ungoogled-chromium-void'
     runs-on: self-hosted
     outputs:
       ver: ${{ steps.version.outputs.ver }}
